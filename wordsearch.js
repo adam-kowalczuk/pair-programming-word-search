@@ -15,7 +15,6 @@ const wordSearch = (letters, word) => {
   const verticalJoin = letters.length;
   for (let i = 0; i < letters[0].length; i++) {
     let col = "";
-    // console.log("before loop", col);
     for (let j = 0; j < verticalJoin; j++) {
       col += letters[j][i];
     }
